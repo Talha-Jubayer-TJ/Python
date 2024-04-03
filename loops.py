@@ -1,5 +1,7 @@
 names = ['Talha',  'Mahadi', 'Abid', 'Nabik', 'Adil']
-
+for index, name in enumerate(names):
+    print(f"At position {index}, I found a {name}")
+    
 print("Printing a List.")
 for name in names:
     print(name, end='-')
